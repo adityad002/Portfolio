@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about"style="--i:2" >About</a>
+            <a href="#skills"style="--i:3" >Skills</a>
+            <a href="#project"style="--i:4" >Projects</a>
+            <a href="#contact"style="--i:5" >Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Aditya Dutta</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Tech-savvy Full Stack Developer skilled in MERN stack, Java, DSA, database management, passionate about crafting scalable, efficient solutions.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/share/1CYqdrgbRi/" target="_blank" style="--i:7" ><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/adityad002" target="_blank" style="--i:8" ><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/_itz_adi_tya_?igsh=MWEwNG9qeHl6Mmx1ZA==" target="_blank" style="--i:9" ><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/aditya-dutta-a46884266" target="_blank" style="--i:10" ><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="/Portfolio/Files/Aditya Dutta (Resume).pdf" class="btn" download="AdityaDutta-Resume">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/picofme (1).png" alt="photo not loaded">
+        </div>
+    </section>
+
+    <!-- about section-->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/picofme (1).png" alt="image is loading">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Developer</h3>
+            <p>Driven by a passion for crafting seamless digital experiences, I'm an aspiring full-stack developer eagerly diving into the world of web and software development. My current toolkit includes the dynamic MERN stack (MongoDB, Express.js, React, Node.js), alongside the robust capabilities of Java. I'm also building a strong foundation in data structures and algorithms (DSA), and exploring the power of fundamental languages like C and C++. My journey extends to database management with SQL and NoSQL solutions like MongoDB. I'm constantly learning, implementing, and excited to contribute innovative solutions to the tech landscape.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+     </section>
+
+     <!-- skills section-->
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-container">
+
+                <div class="skill-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Front-End</h3>
+                    <p>HTML <br>
+                    CSS <br>
+                    JavaScript <br>
+                    React <br>
+                    Bootstrap <br>
+                    Bulma <br>
+                    Exploring responsive design principles and user interface (UI) development. <br>
+                    Continuously learning about component-based architectures and state management.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                 <div class="skill-box">
+                   <i class='bx bx-data'></i>
+                    <h3>Back-End</h3>
+                    <p>Node.js <br>
+                        Express.js <br>
+                        Java <br>
+                        SQL (e.g., MySQL, PostgreSQL) <br>
+                        MongoDB <br>
+                        C++<br>
+                        C<br>
+                        Learning to build and consume RESTful APIs for seamless data exchange. <br>
+                        Investigating database design and optimization techniques for scalability.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                 <div class="skill-box">
+                    <i class='bx bxl-graphql'></i>
+                    <h3>DSA</h3>
+                    <p>Data Structures: Arrays, Linked Lists, Stacks, Queues, Trees (Binary Trees, BSTs), Graphs, Hash Tables
+                        <br><br>Algorithms: Sorting (e.g., Merge Sort, Quick Sort), Searching (e.g., Binary Search), Dynamic Programming, Greedy Algorithms
+                        <br><br>Problem-Solving Platforms: LeetCode, HackerRank</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+     <!--Project section-->
+     <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./images/EduScheduler.png" alt="">
+                <div class="project-layer">
+                    <h4>EduScheduler</h4>
+                    <p>A Full-Stack project simplifies timetable management, optimizes resource allocation, and enhances productivity for schools, colleges, and universities.</p>
+                    <a href=""><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="./images/Porfolioimg.png" alt="">
+                <div class="project-layer">
+                    <h4>Portfolio Project</h4>
+                    <p>A responsive web project built with HTML, CSS, and JavaScript, showcasing my front-end development skills.</p>
+                    <a href=""><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="./images/MoneyTracker.png" alt="">
+                <div class="project-layer">
+                    <h4>Money-Tracker</h4>
+                    <p>A MERN stack application for efficiently tracking and managing personal finances.</p>
+                    <!-- <a href="#home"><i class='bx bx-link-alt'></i></a> -->
+                </div>
+            </div>
+            
+        </div>
+     </section>
+
+     <!-- contact section -->
+
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            
+            <div class="input-box">
+                <input type="text" name="full name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="mobile" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="hidden" name="access_key" value="a138e010-40ee-48b8-93dd-7e42e43d17bd">
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+     </section>
+
+     <!-- footer -->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Aditya Dutta | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+      </footer>
+
+
+
+    <!-------------- javascript --------------> 
+
+
+      <!--scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!--typed js-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+      <!--custom js-->
+         <script src="./script.js"></script>
+</body>
+</html>
